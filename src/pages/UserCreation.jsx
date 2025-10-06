@@ -59,6 +59,18 @@ const UserCreation = () => {
         {/* Role */}
         <div>
           <label className="block text-sm font-semibold mb-1 text-white/90">
+            API Permissions
+          </label>
+          <select className="w-full px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg bg-white text-[#59a9b4] focus:outline-none focus:ring-2 focus:ring-white/80 text-sm sm:text-base">
+            <option value="create">Create</option>
+            <option value="read">Read</option>
+            <option value="update">Update</option>
+            <option value="delete">Delete</option>
+            <option value="download">Download</option>
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-semibold mb-1 text-white/90">
             Role
           </label>
           <select className="w-full px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg bg-white text-[#59a9b4] focus:outline-none focus:ring-2 focus:ring-white/80 text-sm sm:text-base">
