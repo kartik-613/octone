@@ -80,7 +80,7 @@ const UserCreation = () => {
         </div>
 
         {/* Create User Button */}
-        <button className="w-full py-2 mt-2 bg-white text-[#59a9b4] font-semibold rounded-lg hover:bg-white/90 transition-all duration-300">
+        <button className="w-full py-2 mt-2 bg-white/20 hover:bg-white/30 text-white font-semibold rounded-lg  transition-all duration-300">
           Create User
         </button>
       </form>
